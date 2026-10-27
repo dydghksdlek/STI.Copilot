@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>STI.Copilot.Core</RootNamespace>
+    <AssemblyName>STI.Copilot.Core</AssemblyName>
+    <Nullable>disable</Nullable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <!-- 이식성: 외부 NuGet 의존성 없음. .NET 내장 타입만 사용. -->
+  </PropertyGroup>
+
+</Project>

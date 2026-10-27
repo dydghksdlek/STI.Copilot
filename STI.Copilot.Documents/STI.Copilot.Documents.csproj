@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>STI.Copilot.Documents</RootNamespace>
+    <AssemblyName>STI.Copilot.Documents</AssemblyName>
+    <Nullable>disable</Nullable>
+    <!-- 선택 어셈블리: PDF/DOCX가 필요한 앱만 참조한다. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfPig" Version="0.1.9" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.20.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\STI.Copilot.Core\STI.Copilot.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,2 +1,2 @@
-# STi.Copilot
-STi Library of Equipment issues
+# STI.Copilot
+STI Library of Equipment issues

@@ -1,0 +1,39 @@
+# Visual Studio 캐시/설정 (약 187MB)
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# 빌드 산출물
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+*.pdb
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# 테스트 결과
+TestResults/
+*.trx
+*.coverage
+
+# 실행 결과/로그
+*.log
+eval/eval_out.txt
+
+# Claude Code 개인 설정
+.claude/settings.local.json
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
