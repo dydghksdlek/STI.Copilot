@@ -1,7 +1,7 @@
 ﻿namespace STI.Copilot.Core.Chat
 {
     /// <summary>
-    /// 대화 한 줄. UI/저장소와 코어가 공유하는 순수 데이터 모델.
+    /// 대화 한 줄. UI/저장소와 코어가 공유하는 순수 데이터 모델.  
     /// </summary>
     public class ChatMessage
     {
